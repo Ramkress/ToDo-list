@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-        <link rel="stylesheet" href="assets/css/stylesheet.css">
-    <title>todo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
 </head>
-
-<body class="container">
-    <section>
-        <nav class="navbar bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/image/download.png" alt="" width="150px" height="100px"
-                        class="d-inline-block align-text-top">
-                </a>
-            </div>
-        </nav>
-    </section>
-    <section class="container">
-        <div class="input-group">
-            <input type="text" id="myinput" class="form-control" placeholder="Task"
-                aria-label="Recipient's username with two button addons">
-                <input type="datetime-local"  id="date">
-           <span><button class="btn hi  btn-primary" id="apply"    type="button">ADD</button></span> 
-           
-        </div>
-        <ul id="tasks">
-            
-        </ul>
-</section>
-   <h1>COMPLETED TASKS</h1> 
-   <ul id="comt">
-
-   </ul>
-<section>
-
-</section>
-    <script src="assets/js/java.js"></script>
-    
-
+<body>
+    <div>
+        
+    </div>
+    <div class="container">
+        <h1 class="text-center">Table</h1>
+    <table class="table">
+        <thead class="table table-dark table-striped">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Team Division</th>
+            <th scope="col">Team Name</th>
+          </tr>
+        </thead>
+        <tbody id="tab">
+         
+         
+        </tbody>
+      </table>
+    </div>
+    <script src="jquery.js"></script>
 </body>
-
 </html>
